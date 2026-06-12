@@ -5,14 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>macOS Security Audit Agent | Local-first macOS security monitoring and investigation</title>
     <meta name="description" content="macOS Security Audit Agent is an open-source local-first macOS security audit, monitoring, intrusion detection, and incident response tool for analysts, schools, families, researchers, and organizations.">
-    <meta name="keywords" content="macOS security audit, macOS intrusion detection, macOS security monitoring, macOS incident response, macOS forensics, macOS EDR, Apple security forecast, Mac security tool, open source macOS security">
+    <meta name="keywords" content="macOS intrusion detection, macOS security monitoring, macOS security audit, macOS incident response, macOS EDR alternative, Apple security monitoring, macOS persistence detection, macOS forensics, Apple security forecast, Mac security tool, open source macOS security">
+    <link rel="canonical" href="https://fuzzlove.github.io/macOS-Audit-Agent/">
     <meta property="og:title" content="macOS Security Audit Agent | Local-first macOS security monitoring and investigation">
     <meta property="og:description" content="Open-source local-first macOS security audit, monitoring, intrusion detection, and investigation workflow for analysts, schools, families, researchers, and organizations.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fuzzlove.github.io/macOS-Audit-Agent/">
-    <meta property="og:image" content="https://fuzzlove.github.io/macOS-Audit-Agent/assets/og-image-placeholder.png">
+    <meta property="og:image" content="https://fuzzlove.github.io/macOS-Audit-Agent/assets/images/dashboard.png">
+    <meta property="og:site_name" content="macOS Security Audit Agent">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="macOS Security Audit Agent | Local-first macOS security monitoring and investigation">
+    <meta name="twitter:description" content="Turn a Mac into a security visibility workstation with open-source macOS auditing, monitoring, investigation, and evidence preservation.">
+    <meta name="twitter:image" content="https://fuzzlove.github.io/macOS-Audit-Agent/assets/images/dashboard.png">
     <meta name="theme-color" content="#07111f">
     <link rel="stylesheet" href="assets/styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "macOS Security Audit Agent",
+        "alternateName": "MSAA",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "macOS",
+        "softwareVersion": "Open source",
+        "description": "macOS Security Audit Agent is an open-source local-first macOS security audit, monitoring, intrusion detection, and incident response tool for analysts, schools, families, researchers, and organizations.",
+        "url": "https://fuzzlove.github.io/macOS-Audit-Agent/",
+        "downloadUrl": "https://pypi.org/project/macos-security-audit-agent/",
+        "installUrl": "https://pypi.org/project/macos-security-audit-agent/",
+        "codeRepository": "https://github.com/fuzzlove/macOS-Audit-Agent",
+        "image": "https://fuzzlove.github.io/macOS-Audit-Agent/assets/images/dashboard.png",
+        "isAccessibleForFree": true,
+        "license": "https://github.com/fuzzlove/macOS-Audit-Agent",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Liquidsky Security",
+          "url": "https://liquidskysecurity.com"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is MSAA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MSAA, or macOS Security Audit Agent, is an open-source local-first platform for macOS security auditing, monitoring, intrusion detection, investigation workflow, and evidence preservation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it open source?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. MSAA is published as an open-source project with a public GitHub repository and PyPI package."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it collect telemetry?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MSAA is local-first and does not upload telemetry by default. Reports, notes, and local storage remain under user control."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is it different from EDR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MSAA is not positioned as a full enterprise EDR replacement. It focuses on local-first visibility, baseline comparison, explainable findings, evidence snapshots, and practical investigation workflows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can schools use it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Schools, libraries, and learning programs can evaluate MSAA for defensive macOS security visibility, safety review, and student security education on systems they own or are authorized to assess."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can government organizations evaluate it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Government and public sector teams can evaluate MSAA as an open-source, local-first macOS audit and monitoring tool without a cloud telemetry dependency by default."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -27,9 +118,10 @@
           </span>
         </a>
         <div class="nav-links" aria-label="Primary links">
-          <a href="#capabilities">Capabilities</a>
-          <a href="#privacy">Privacy</a>
-          <a href="#install">Install</a>
+          <a href="features.html">Features</a>
+          <a href="screenshots.html">Screenshots</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="install.html">Install</a>
           <a href="https://github.com/fuzzlove/macOS-Audit-Agent">GitHub</a>
         </div>
       </nav>
@@ -232,7 +324,7 @@
       <section class="section" id="screenshots">
         <div class="section-heading">
           <p class="section-kicker">Screenshots</p>
-          <h2>Product views prepared for upcoming captures.</h2>
+          <h2>Screenshot gallery for core MSAA workflows.</h2>
         </div>
         <div class="screenshot-grid">
           <article class="screenshot-card">
@@ -300,6 +392,42 @@
               <img src="assets/images/report.png" alt="HTML report summary exported from macOS Security Audit Agent">
             </div>
             <h3>Reports</h3>
+          </article>
+        </div>
+        <div class="section-action">
+          <a class="button" href="screenshots.html">Open full screenshot gallery</a>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="section-heading">
+          <p class="section-kicker">FAQ</p>
+          <h2>Common questions about MSAA.</h2>
+        </div>
+        <div class="faq-grid">
+          <article class="card">
+            <h3>What is MSAA?</h3>
+            <p>MSAA is macOS Security Audit Agent, an open-source local-first platform for macOS security audit, monitoring, intrusion detection, investigation workflow, and evidence preservation.</p>
+          </article>
+          <article class="card">
+            <h3>Is it open source?</h3>
+            <p>Yes. MSAA is distributed through a public GitHub repository and PyPI package for review, installation, and community evaluation.</p>
+          </article>
+          <article class="card">
+            <h3>Does it collect telemetry?</h3>
+            <p>No telemetry is uploaded by default. MSAA is designed around local SQLite storage, local reports, optional redaction, and user-controlled exports.</p>
+          </article>
+          <article class="card">
+            <h3>How is it different from EDR?</h3>
+            <p>MSAA is not a full enterprise EDR replacement. It focuses on local-first visibility, baseline comparison, explainable findings, and evidence-focused investigation.</p>
+          </article>
+          <article class="card">
+            <h3>Can schools use it?</h3>
+            <p>Schools, libraries, and training programs can evaluate MSAA for defensive macOS visibility, Apple security awareness, and student security education.</p>
+          </article>
+          <article class="card">
+            <h3>Can government organizations evaluate it?</h3>
+            <p>Government and public sector teams can evaluate MSAA as an open-source macOS security audit and monitoring tool without cloud telemetry by default.</p>
           </article>
         </div>
       </section>

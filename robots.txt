@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fuzzlove.github.io/macOS-Audit-Agent/sitemap.xml
