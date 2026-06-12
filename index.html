@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>macOS Security Audit Agent | Local-first macOS security monitoring and investigation</title>
+    <meta name="description" content="macOS Security Audit Agent is an open-source local-first macOS security audit, monitoring, intrusion detection, and incident response tool for analysts, schools, families, researchers, and organizations.">
+    <meta name="keywords" content="macOS security audit, macOS intrusion detection, macOS security monitoring, macOS incident response, macOS forensics, macOS EDR, Apple security forecast, Mac security tool, open source macOS security">
+    <meta property="og:title" content="macOS Security Audit Agent | Local-first macOS security monitoring and investigation">
+    <meta property="og:description" content="Open-source local-first macOS security audit, monitoring, intrusion detection, and investigation workflow for analysts, schools, families, researchers, and organizations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fuzzlove.github.io/macOS-Audit-Agent/">
+    <meta property="og:image" content="https://fuzzlove.github.io/macOS-Audit-Agent/assets/og-image-placeholder.png">
+    <meta name="theme-color" content="#07111f">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary">
+      <nav class="nav">
+        <a class="brand" href="#" aria-label="macOS Security Audit Agent home">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span>
+            <strong>macOS Security Audit Agent</strong>
+            <small>MSAA · local-first visibility</small>
+          </span>
+        </a>
+        <div class="nav-links" aria-label="Primary links">
+          <a href="#capabilities">Capabilities</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#install">Install</a>
+          <a href="https://github.com/fuzzlove/macOS-Audit-Agent">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="product-name">macOS Security Audit Agent</p>
+            <p class="eyebrow">MSAA · Open Source · Local First · macOS Security · No Telemetry by Default</p>
+            <h1>Turn a Mac into a security visibility workstation.</h1>
+            <p class="subhook">Local-first macOS security auditing, intrusion detection, monitoring, investigation workflow, Apple security awareness, and evidence preservation without sending data off-device.</p>
+            <p class="hero-text">macOS Security Audit Agent helps users, analysts, schools, families, and organizations understand what changed on a Mac, identify suspicious activity, preserve evidence, and take action before small warning signs become major incidents.</p>
+
+            <div class="button-row" aria-label="Primary actions">
+              <a class="button primary" href="https://github.com/fuzzlove/macOS-Audit-Agent">View on GitHub</a>
+              <a class="button" href="#install">Install with pip</a>
+              <a class="button" href="https://github.com/fuzzlove/macOS-Audit-Agent#readme">Documentation</a>
+              <a class="button ghost" href="https://liquidskysecurity.com">Liquidsky Security</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Install command and security summary">
+            <div class="terminal">
+              <div class="terminal-bar" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <pre><code>pip install macos-security-audit-agent</code></pre>
+            </div>
+            <div class="signal-grid" aria-label="Platform focus">
+              <div>
+                <span class="metric">Local</span>
+                <strong>SQLite storage and reports</strong>
+              </div>
+              <div>
+                <span class="metric">Baseline</span>
+                <strong>Compare changes over time</strong>
+              </div>
+              <div>
+                <span class="metric">Evidence</span>
+                <strong>Snapshot before remediation</strong>
+              </div>
+              <div>
+                <span class="metric">Apple</span>
+                <strong>Security advisory awareness</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section problem">
+        <div class="section-copy">
+          <p class="section-kicker">The visibility gap</p>
+          <h2>macOS security visibility should not be locked behind enterprise pricing.</h2>
+          <p>Many users, students, researchers, schools, small businesses, and community organizations need better macOS visibility but cannot afford large enterprise EDR platforms. MSAA is designed to provide local-first insight into system changes, suspicious activity, persistence, devices, network changes, and Apple security posture.</p>
+        </div>
+      </section>
+
+      <section class="section" id="what-it-does">
+        <div class="section-heading">
+          <p class="section-kicker">What it does</p>
+          <h2>Audit, monitor, investigate, and preserve evidence.</h2>
+        </div>
+        <div class="card-grid feature-grid">
+          <article class="card">
+            <h3>Security Audit Scans</h3>
+            <p>Finds local risks, configuration issues, suspicious files, persistence, users, processes, ports, and security posture concerns.</p>
+          </article>
+          <article class="card">
+            <h3>Background Monitoring</h3>
+            <p>Watches for important events like USB changes, Bluetooth changes, lid/session activity, remote access changes, daemon changes, and admin changes.</p>
+          </article>
+          <article class="card">
+            <h3>Investigation Workflow</h3>
+            <p>Prioritizes findings, explains why they matter, tracks review state, supports notes, and helps analysts understand what to investigate first.</p>
+          </article>
+          <article class="card">
+            <h3>Evidence Preservation</h3>
+            <p>Creates snapshots and reports before cleanup or remediation so important forensic evidence is not destroyed.</p>
+          </article>
+          <article class="card">
+            <h3>Apple Security Forecast</h3>
+            <p>Tracks Mac-relevant Apple security updates and advisories so users know when updates may be critical.</p>
+          </article>
+          <article class="card">
+            <h3>Family &amp; Safety Center</h3>
+            <p>Helps parents, schools, and caregivers review child safety, Screen Time, privacy, content restrictions, and safer settings.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="different">
+        <div class="section-copy">
+          <p class="section-kicker">Why it is different</p>
+          <h2>Not just another scanner.</h2>
+          <p>MSAA is built around local evidence, understandable review, and practical visibility for people who need more than a one-time checklist.</p>
+        </div>
+        <ul class="check-list">
+          <li>Local-first by design</li>
+          <li>No telemetry by default</li>
+          <li>Evidence-focused instead of fear-based</li>
+          <li>Built for analysts and non-technical users</li>
+          <li>Explains what changed and why it matters</li>
+          <li>Designed for schools, families, researchers, small businesses, and public-interest security work</li>
+          <li>Uses baseline comparison instead of only one-time scanning</li>
+          <li>Separates local security events from Apple security advisories</li>
+        </ul>
+      </section>
+
+      <section class="section" id="use-cases">
+        <div class="section-heading">
+          <p class="section-kicker">Who it is for</p>
+          <h2>Built for practical defensive security work.</h2>
+        </div>
+        <div class="use-case-grid">
+          <span>Security Researchers</span>
+          <span>Incident Responders</span>
+          <span>Schools and Libraries</span>
+          <span>Families and Caregivers</span>
+          <span>Small Businesses</span>
+          <span>Government and Public Sector Evaluation</span>
+          <span>macOS Enthusiasts</span>
+          <span>Students Learning Defensive Security</span>
+        </div>
+      </section>
+
+      <section class="section capabilities" id="capabilities">
+        <div class="section-heading">
+          <p class="section-kicker">Core capabilities</p>
+          <h2>Local visibility across system changes and investigation state.</h2>
+        </div>
+        <div class="capability-list">
+          <span>Safe Scan</span>
+          <span>Aggressive Review</span>
+          <span>Local network discovery</span>
+          <span>Persistence review</span>
+          <span>LaunchAgent and LaunchDaemon monitoring</span>
+          <span>USB and Bluetooth monitoring</span>
+          <span>Session and display activity</span>
+          <span>Security event timeline</span>
+          <span>Review queue</span>
+          <span>Trust scoring</span>
+          <span>Apple Security Forecast</span>
+          <span>Report export to JSON/HTML</span>
+          <span>Investigation notes</span>
+          <span>Evidence snapshots</span>
+          <span>Optional system-level monitor</span>
+          <span>PyPI installation</span>
+        </div>
+      </section>
+
+      <section class="section privacy" id="privacy">
+        <div class="section-copy">
+          <p class="section-kicker">Privacy model</p>
+          <h2>Your Mac. Your data. Your control.</h2>
+          <p>MSAA is designed to keep collected data local. It does not upload telemetry by default and does not inspect private browsing history, cookies, passwords, keychains, messages, or personal content.</p>
+        </div>
+        <ul class="privacy-list" aria-label="Privacy features">
+          <li>Local SQLite storage</li>
+          <li>Local reports</li>
+          <li>Optional redaction</li>
+          <li>No telemetry by default</li>
+          <li>No cloud dependency required</li>
+          <li>User-controlled exports</li>
+        </ul>
+      </section>
+
+      <section class="section install" id="install">
+        <div class="section-heading">
+          <p class="section-kicker">Install</p>
+          <h2>Install MSAA</h2>
+        </div>
+        <div class="install-grid">
+          <div class="terminal large">
+            <div class="terminal-bar" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>pip install macos-security-audit-agent</code></pre>
+          </div>
+          <div class="command-stack">
+            <div>
+              <span>Run</span>
+              <code>macos-security-audit-agent</code>
+            </div>
+            <div>
+              <span>Alternative install</span>
+              <code>python3 -m pip install macos-security-audit-agent</code>
+            </div>
+            <p>Some advanced monitoring features may require macOS permissions or administrator approval.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="screenshots">
+        <div class="section-heading">
+          <p class="section-kicker">Screenshots</p>
+          <h2>Product views prepared for upcoming captures.</h2>
+        </div>
+        <div class="screenshot-grid">
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/dashboard.png" alt="Dashboard view in macOS Security Audit Agent">
+            </div>
+            <h3>Dashboard</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/intrusion-detection.png" alt="Intrusion Detection monitoring view in macOS Security Audit Agent">
+            </div>
+            <h3>Intrusion Detection</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/investigation-priorities.png" alt="Investigation Priorities workflow view in macOS Security Audit Agent">
+            </div>
+            <h3>Investigation Priorities</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/investigation-notes.png" alt="Investigation Notes view in macOS Security Audit Agent">
+            </div>
+            <h3>Investigation Notes</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/flight-recorder.png" alt="Flight Recorder activity monitoring view in macOS Security Audit Agent">
+            </div>
+            <h3>Flight Recorder</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/system-recovery.png" alt="System Recovery view in macOS Security Audit Agent">
+            </div>
+            <h3>System Recovery</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/logs.png" alt="Logs view in macOS Security Audit Agent">
+            </div>
+            <h3>Logs</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/settings.png" alt="Settings and monitor configuration view in macOS Security Audit Agent">
+            </div>
+            <h3>Settings</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/apple-security-forecast.png" alt="Apple Security Forecast view in macOS Security Audit Agent">
+            </div>
+            <h3>Apple Security Forecast</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/family-safety-center.png" alt="Family and Safety Center view in macOS Security Audit Agent">
+            </div>
+            <h3>Family &amp; Safety Center</h3>
+          </article>
+          <article class="screenshot-card">
+            <div class="screenshot-frame real-shot">
+              <img src="assets/images/report.png" alt="HTML report summary exported from macOS Security Audit Agent">
+            </div>
+            <h3>Reports</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section disclaimer" id="safety">
+        <div>
+          <p class="section-kicker">Safety disclaimer</p>
+          <h2>Defensive audit tooling requires careful review.</h2>
+        </div>
+        <p>MSAA is a defensive security and audit tool. Findings are not proof of compromise. Users should review evidence, preserve logs during suspected incidents, and only monitor systems they own or are authorized to assess.</p>
+      </section>
+
+      <section class="section company">
+        <div class="section-copy">
+          <p class="section-kicker">Company and support</p>
+          <h2>Built by Liquidsky Security</h2>
+          <p>MSAA is part of a larger mission to make practical macOS security visibility more accessible to researchers, families, schools, and organizations.</p>
+          <a class="button primary" href="https://liquidskysecurity.com">Visit Liquidsky Security</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>macOS Security Audit Agent</strong>
+        <span>Open-source, local-first macOS security visibility.</span>
+      </div>
+      <nav aria-label="Footer links">
+        <a href="https://github.com/fuzzlove/macOS-Audit-Agent">GitHub Repository</a>
+        <a href="https://pypi.org/project/macos-security-audit-agent/">PyPI Package</a>
+        <a href="https://github.com/fuzzlove/macOS-Audit-Agent#readme">Documentation</a>
+        <a href="https://github.com/fuzzlove/macOS-Audit-Agent/issues">Issues</a>
+        <a href="https://liquidskysecurity.com">Liquidsky Security</a>
+      </nav>
+    </footer>
+  </body>
+</html>
